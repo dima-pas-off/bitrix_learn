@@ -73,6 +73,11 @@ $arComponentParameters = array(
 		),
 	),
 	"PARAMETERS" => array(
+		"ID_BLOCK_CANONICAL" => [
+			"NAME" => "ID информационного блока для rel=canonical",
+			"PARENT" => "ADDITIONAL_SETTINGS",
+			"TYPE" => "STRING"
+		],
 		"VARIABLE_ALIASES" => Array(
 			"SECTION_ID" => Array("NAME" => GetMessage("BN_P_SECTION_ID_DESC")),
 			"ELEMENT_ID" => Array("NAME" => GetMessage("NEWS_ELEMENT_ID_DESC")),

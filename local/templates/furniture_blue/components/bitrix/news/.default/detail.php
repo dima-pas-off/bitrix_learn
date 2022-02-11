@@ -3,6 +3,7 @@
 	"bitrix:news.detail",
 	"",
 	Array(
+		"ID_BLOCK_CANONICAL" => $arParams["ID_BLOCK_CANONICAL"],
 		"DISPLAY_DATE" => $arParams["DISPLAY_DATE"],
 		"DISPLAY_NAME" => $arParams["DISPLAY_NAME"],
 		"DISPLAY_PICTURE" => $arParams["DISPLAY_PICTURE"],
