@@ -73,6 +73,12 @@ $arComponentParameters = array(
 		),
 	),
 	"PARAMETERS" => array(
+
+		"SPECIAL_DATE" => Array(
+			"NAME" => "Специальная информация[specialdate]",
+			"PARENT" => "ADDITIONAL_SETTINGS",
+			"TYPE" => "CHECKBOX"
+		),
 		"VARIABLE_ALIASES" => Array(
 			"SECTION_ID" => Array("NAME" => GetMessage("BN_P_SECTION_ID_DESC")),
 			"ELEMENT_ID" => Array("NAME" => GetMessage("NEWS_ELEMENT_ID_DESC")),
