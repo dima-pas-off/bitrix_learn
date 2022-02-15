@@ -83,7 +83,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
             
 
             $productsQuery = CIBlockElement::GetList(
-                [],
+                ["NAME" => "ASC", "SORT" => "ASC"],
                 ["IBLOCK_ID" => $idIBlock, "ACTIVE" => "Y", "!PROPERTY_$code" => false, "CHECK_PERMISSIONS" => "Y"],
                 false,
                 false,

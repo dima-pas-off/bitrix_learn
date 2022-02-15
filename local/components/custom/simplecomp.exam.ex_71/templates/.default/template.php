@@ -22,8 +22,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                                 . ' - '
                                 . $product["PROPERTY_MATERIAL_VALUE"]
                                 . ' - ' ?>
-
-                                <a href="<?=$product["DETAIL_PAGE_URL"] ?>">Детальный просмотр</a>
+                               <?= "(" . $product["DETAIL_PAGE_URL"] . ")"?>
                                 
                         </li>
                     <? endforeach ?>    
