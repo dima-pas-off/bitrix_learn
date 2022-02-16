@@ -1,5 +1,6 @@
 <?
 
+use Bitrix\Main\Context;
 use Bitrix\Main\Loader;
 
 if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
@@ -32,12 +33,25 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 
         public function executeComponent()
         {   
-
+            global $APPLICATION;
             $groupsUsers = $this->getGroupsUsers();
+            $request = Context::getCurrent()->getRequest();
+            $param = $request->getQuery("F");
+            $this->arResult["TITLE"] = '';
+            $additionalCacheId = array_merge($groupsUsers);
 
-            if($this->startResultCache(false, $groupsUsers)) {
+            if(!is_null($param)) {
+               $additionalCacheId[] = "Y";
+            }
+            else {
+                $additionalCacheId[] = "N";
+            }
 
-                global $APPLICATION;
+            if($this->startResultCache(false, $additionalCacheId)) {
+
+                if(!is_null($param)) {
+                    $this->abortResultCache();
+                }
 
                 Loader::includeModule("iblock");
 
@@ -46,19 +60,21 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $templateUrlDetail = $this->arParams["TEMPLATE_URL_DETAIL"];
                 $codePropertyClassifier = $this->arParams["CODE_PROPERTY_CLASSIFIER"];
 
-                $products = $this->getProductsWithClassifier($idIBlockProducts, $templateUrlDetail, $codePropertyClassifier);
+                $products = $this->getProductsWithClassifier($idIBlockProducts, $templateUrlDetail, $codePropertyClassifier, $param);
                 $classifiers = $this->getClassifiers($products, $idIBlockClassifiers, $codePropertyClassifier);
                 $items = $this->getItems($products, $classifiers, $codePropertyClassifier);
         
                 $this->arResult["ITEMS"] = $items;
-
-                $APPLICATION->SetTitle("Разделов " . count($items));
+                $this->arResult["TITLE"] = "Разделов " . count($items);
+                $this->setResultCacheKeys(["TITLE"]);
 
                 $this->includeComponentTemplate();
             }
             else {
                 $this->abortResultCache();
             }
+
+            $APPLICATION->SetTitle($this->arResult["TITLE"]);
         }
 
 
@@ -77,14 +93,32 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
             return $idGroups;
         }
 
-        private function getProductsWithClassifier($idIBlock, $templateUrlDetail, $code) {
+        private function getProductsWithClassifier($idIBlock, $templateUrlDetail, $code, $param) {
 
             $products = [];
             
+            $arFilter = [
+            "IBLOCK_ID" => $idIBlock, 
+            "ACTIVE" => "Y", 
+            "!PROPERTY_$code" => false, 
+            "CHECK_PERMISSIONS" => "Y"
+            ];
+
+
+            if(!is_null($param)) {
+                $arAdditionalFilter = [
+
+                    ["LOGIC" => "OR",
+                    ["<=PROPERTY_PRICE" => 1700, "PROPERTY_MATERIAL" => "Дерево, ткань"],
+                    ["<PROPERTY_PRICE" => 1500, "PROPERTY_MATERIAL" => "Металл, пластик"]
+                ]];
+
+                $arFilter = array_merge($arFilter, $arAdditionalFilter);
+            }
 
             $productsQuery = CIBlockElement::GetList(
                 ["NAME" => "ASC", "SORT" => "ASC"],
-                ["IBLOCK_ID" => $idIBlock, "ACTIVE" => "Y", "!PROPERTY_$code" => false, "CHECK_PERMISSIONS" => "Y"],
+                $arFilter,
                 false,
                 false,
                 ["ID", "NAME", "PROPERTY_ARTNUMBER", "PROPERTY_MATERIAL", "PROPERTY_$code", "DETAIL_PAGE_URL"]
