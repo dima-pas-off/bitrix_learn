@@ -65,9 +65,10 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $classifiers = $this->getClassifiers($products, $idIBlockClassifiers, $codePropertyClassifier);
                 $items = $this->getItems($products, $classifiers, $codePropertyClassifier);
                 $this->addInterfaceElements($items, $idIBlockProducts);
+                $this->addToolbarComponent($idIBlockProducts);
 
                 $this->arResult["ITEMS"] = $items;
-                  
+
                 $this->arResult["TITLE"] = "Разделов " . count($items);
                 $this->setResultCacheKeys(["TITLE"]);
 
@@ -203,6 +204,17 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
             }
 
             }
+        }
+
+        private function addToolbarComponent($idIBlockProducts) {
+
+            $this->addIncludeAreaIcons(array(
+                array(
+                    'URL' => "/bitrix/admin/iblock_section_admin.php?IBLOCK_ID=$idIBlockProducts&type=products",
+                    'TITLE' => "ИБ в админке",
+                    "IN_PARAMS_MENU" => true
+                )
+                ));
         }
 
     }
