@@ -7,6 +7,9 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 
 
 <div>
+
+
+
     <p><strong>Каталог:</strong></p>
     <a href='?F=Y'>Фильтр: ex2/ex2-71/?F=Y</a>
     <ul>
@@ -16,7 +19,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 
                 <ul>
                     <?foreach($item["PRODUCTS"] as $product): ?>
-                        <li>
+
+                        <li id="<?=$this->GetEditAreaId($item["CLASSIFIER"]["NAME"] . $product["ID"]);?>">
                             <?= $product["NAME"] 
                                 . ' - '
                                 . $product["PROPERTY_ARTNUMBER_VALUE"] 

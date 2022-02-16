@@ -33,6 +33,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 
         public function executeComponent()
         {   
+
             global $APPLICATION;
             $groupsUsers = $this->getGroupsUsers();
             $request = Context::getCurrent()->getRequest();
@@ -63,8 +64,10 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $products = $this->getProductsWithClassifier($idIBlockProducts, $templateUrlDetail, $codePropertyClassifier, $param);
                 $classifiers = $this->getClassifiers($products, $idIBlockClassifiers, $codePropertyClassifier);
                 $items = $this->getItems($products, $classifiers, $codePropertyClassifier);
-        
+                $this->addInterfaceElements($items, $idIBlockProducts);
+
                 $this->arResult["ITEMS"] = $items;
+                  
                 $this->arResult["TITLE"] = "Разделов " . count($items);
                 $this->setResultCacheKeys(["TITLE"]);
 
@@ -179,6 +182,27 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
             }
 
             return $items;
+        }
+
+        private function addInterfaceElements($items, $idIBlockProducts) {
+            foreach($items as $item) {
+
+                $classifier = $item["CLASSIFIER"];
+
+                foreach($item["PRODUCTS"] as $product) {
+                $url = CIBlock::GetPanelButtons(
+                    $idIBlockProducts,
+                    $product["ID"],
+                    0,
+                );
+
+                $this->addEditAction($classifier["NAME"] . $product["ID"], $url["edit"]["add_element"]["ACTION_URL"], "Добавить элемент");
+                $this->addEditAction($classifier["NAME"] . $product["ID"], $url["edit"]["edit_element"]["ACTION_URL"], "Изменить элемент");
+                $this->addDeleteAction($classifier["NAME"] . $product["ID"], $url["edit"]["delete_element"]["ACTION_URL"], "Удалить элемент");
+                
+            }
+
+            }
         }
 
     }
