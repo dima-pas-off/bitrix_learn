@@ -48,7 +48,9 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $additionalCacheId[] = "N";
             }
 
-            if($this->startResultCache(false, $additionalCacheId)) {
+            $nav = CDBResult::GetNavParams($arNavParams);
+
+            if($this->startResultCache(false, Array($additionalCacheId, $nav))) {
 
                 if(!is_null($param)) {
                     $this->abortResultCache();
@@ -66,6 +68,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $items = $this->getItems($products, $classifiers, $codePropertyClassifier);
                 $this->addInterfaceElements($items, $idIBlockProducts);
                 $this->addToolbarComponent($idIBlockProducts);
+                $this->showInfoPrice($products);
 
                 $this->arResult["ITEMS"] = $items;
 
@@ -124,9 +127,11 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 ["NAME" => "ASC", "SORT" => "ASC"],
                 $arFilter,
                 false,
-                false,
-                ["ID", "NAME", "PROPERTY_ARTNUMBER", "PROPERTY_MATERIAL", "PROPERTY_$code", "DETAIL_PAGE_URL"]
+                ["nPageSize" => 3],
+                ["ID", "NAME", "PROPERTY_PRICE", "PROPERTY_ARTNUMBER", "PROPERTY_MATERIAL", "PROPERTY_$code", "DETAIL_PAGE_URL"]
             );
+
+            $this->arResult["NAV"] = $productsQuery->GetPageNavStringEx($navComponentObject, '', '');
 
             $productsQuery->SetUrlTemplates($templateUrlDetail);
             
@@ -157,6 +162,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 false,
                 ["ID", "NAME"]
             );
+
 
             while($classifier = $classifiersQuery->Fetch()) {
                 $classifiers[] = $classifier;
@@ -216,6 +222,26 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 )
                 ));
         }
+
+        private function showInfoPrice($products) {
+            global $APPLICATION;
+
+            $arPrice = [];
+
+            foreach($products as $product) {
+                $arPrice[] = intval($product["PROPERTY_PRICE_VALUE"]);
+            }
+
+            $minPrice = min($arPrice);
+            $maxPrice = max($arPrice);
+
+            $bufer = "<div style='color:red; margin: 34px 15px 35px 15px'>
+                <p>MIN: $minPrice </p>
+                <p>MAX: $maxPrice </p>
+            </div>";
+
+            $APPLICATION->AddViewContent("price", $bufer);
+        }   
 
     }
 
