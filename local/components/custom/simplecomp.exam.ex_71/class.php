@@ -35,6 +35,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
         {   
 
             global $APPLICATION;
+
             $groupsUsers = $this->getGroupsUsers();
             $request = Context::getCurrent()->getRequest();
             $param = $request->getQuery("F");
@@ -52,10 +53,15 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
 
             if($this->startResultCache(false, Array($additionalCacheId, $nav))) {
 
+
+                if (defined('BX_COMP_MANAGED_CACHE') && is_object($GLOBALS['CACHE_MANAGER'])) {
+                    $GLOBALS['CACHE_MANAGER']->RegisterTag('ex2_107');   
+            }
+
                 if(!is_null($param)) {
                     $this->abortResultCache();
                 }
-
+                
                 Loader::includeModule("iblock");
 
                 $idIBlockProducts = $this->arParams["ID_IBLOCK_CATALOG"];
