@@ -1,0 +1,540 @@
+Host: local:82
+Date: 2022-02-16 18:40:59
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 18:42:26
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:00:25
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:02:10
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:03:42
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:04:43
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:16:36
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:17:45
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:39:52
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:41:25
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:48:18
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:49:19
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:56:16
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 19:58:06
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 20:05:06
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:25:09
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:26:38
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:34:54
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:35:57
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:37:19
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:38:21
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 21:39:55
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 22:49:49
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 22:51:45
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 22:52:47
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 22:56:31
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 22:57:47
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:05:01
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:06:11
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:09:38
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:10:40
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:11:41
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:12:42
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:13:43
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:14:43
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:18:19
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:19:21
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:23:43
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:24:44
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:25:44
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:34:20
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:37:31
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:39:53
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:42:36
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:44:35
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:45:40
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:46:52
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:50:21
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:51:26
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:56:31
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-16 23:58:06
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-17 00:00:15
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-17 00:01:15
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------
+Host: local:82
+Date: 2022-02-17 10:12:35
+Module: 
+AGENT
+    testAgent < eval < CAgent::ExecuteAgents < CAgent::CheckAgents < call_user_func_array
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php(162) : eval()'d code:1
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:162
+	C:\OpenServerNew\domains\local\bitrix\modules\main\classes\mysql\agent.php:40
+	C:\OpenServerNew\domains\local\bitrix\modules\main\lib\application.php:681
+----------

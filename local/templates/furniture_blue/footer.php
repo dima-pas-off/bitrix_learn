@@ -19,17 +19,22 @@ $APPLICATION->IncludeFile(
 		</div>
 		<div class="footer-links">	
 <?
-$APPLICATION->IncludeComponent("bitrix:menu", "bottom", array(
-	"ROOT_MENU_TYPE" => "bottom",
-	"MENU_CACHE_TYPE" => "N",
-	"MENU_CACHE_TIME" => "36000000",
-	"MENU_CACHE_USE_GROUPS" => "Y",
-	"MENU_CACHE_GET_VARS" => array(
-	),
-	"MAX_LEVEL" => "1",
-	"CHILD_MENU_TYPE" => "left",
-	"USE_EXT" => "N",
-	"ALLOW_MULTI_SELECT" => "N"
+$APPLICATION->IncludeComponent(
+	"bitrix:menu", 
+	"bottom", 
+	array(
+		"ROOT_MENU_TYPE" => "bottom",
+		"MENU_CACHE_TYPE" => "N",
+		"MENU_CACHE_TIME" => "36000000",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MAX_LEVEL" => "1",
+		"CHILD_MENU_TYPE" => "left",
+		"USE_EXT" => "N",
+		"ALLOW_MULTI_SELECT" => "N",
+		"COMPONENT_TEMPLATE" => "bottom",
+		"DELAY" => "N"
 	),
 	false
 );
