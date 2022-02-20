@@ -74,10 +74,10 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 $items = $this->getItems($products, $classifiers, $codePropertyClassifier);
                 $this->addInterfaceElements($items, $idIBlockProducts);
                 $this->addToolbarComponent($idIBlockProducts);
-                $this->showInfoPrice($products);
+                
 
                 $this->arResult["ITEMS"] = $items;
-
+                $this->arResult["PRODUCTS"] = $products;
                 $this->arResult["TITLE"] = "Разделов " . count($items);
                 $this->setResultCacheKeys(["TITLE"]);
 
@@ -228,27 +228,6 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();?>
                 )
                 ));
         }
-
-        private function showInfoPrice($products) {
-            global $APPLICATION;
-
-            $arPrice = [];
-
-            foreach($products as $product) {
-                $arPrice[] = intval($product["PROPERTY_PRICE_VALUE"]);
-            }
-
-            $minPrice = min($arPrice);
-            $maxPrice = max($arPrice);
-
-            $bufer = "<div style='color:red; margin: 34px 15px 35px 15px'>
-                <p>MIN: $minPrice </p>
-                <p>MAX: $maxPrice </p>
-            </div>";
-
-            $APPLICATION->AddViewContent("price", $bufer);
-        }   
-
     }
 
 
