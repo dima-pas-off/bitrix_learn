@@ -6,7 +6,7 @@ namespace Custom;
 
 class NonExistentPageHandler {
 
-    function handler() {
+    static function handler() {
         
         if(defined("ERROR_404") && ERROR_404 === "Y")
         {
@@ -20,5 +20,3 @@ class NonExistentPageHandler {
     }
 
 }
-
-?>
