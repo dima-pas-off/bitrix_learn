@@ -1,4 +1,11 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?
+
+use Bitrix\Main\Diag\Debug;
+
+if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+?>
+<div class='info'></div>
 <div class="news-detail">
 	<?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arResult["DETAIL_PICTURE"])):?>
 		<img class="detail_picture" src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>" width="<?=$arResult["DETAIL_PICTURE"]["WIDTH"]?>" height="<?=$arResult["DETAIL_PICTURE"]["HEIGHT"]?>" alt="<?=$arResult["NAME"]?>"  title="<?=$arResult["NAME"]?>" />
@@ -10,6 +17,13 @@
 		<h3><?=$arResult["NAME"]?></h3>
 	<?endif;?>
 	<div class="news-detail">
+		<div class="feedback-info-send-complaint-wrapper">
+			<?if($arParams["AJAX_COMPLAINT"] === "Y"): ?>
+				<p><a href="" class="ajax-link" id="<?=$arResult["ID"]?>">Пожаловаться</a></p>
+			<? else: ?>
+				<p><a href="<?= "?ID=" . $arResult["ID"]  ?>">Пожаловаться</a></p>
+			<? endif ?>	
+		</div>
 	<?if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arResult["FIELDS"]["PREVIEW_TEXT"]):?>
 		<p><?=$arResult["FIELDS"]["PREVIEW_TEXT"];unset($arResult["FIELDS"]["PREVIEW_TEXT"]);?></p>
 	<?endif;?>
