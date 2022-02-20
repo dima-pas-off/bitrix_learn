@@ -7,6 +7,11 @@ IncludeTemplateLangFile(__FILE__);
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <?$APPLICATION->ShowHead();?>
+
+<? if (!$USER->IsAuthorized()) { 
+CJSCore::Init(array('ajax', 'json', 'ls', 'session', 'jquery', 'popup','pull')); 
+} ?>
+ 
 <link href="<?=SITE_TEMPLATE_PATH?>/common.css" type="text/css" rel="stylesheet" />
 <link href="<?=SITE_TEMPLATE_PATH?>/colors.css" type="text/css" rel="stylesheet" />
 
